@@ -1,0 +1,15 @@
+.btn-blue
+{
+	
+	background-color: lightgrey;
+	color: blue;
+	width: 80px;
+	padding: 1em;
+	border-style: ridge;
+	border-radius: 1em;
+}
+.btn-blue:hover
+{
+	background-color: red;
+	transition: margin-bottom 2s;
+}

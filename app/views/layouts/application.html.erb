@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UISprintDesign</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    
+    <div class="navbar">
+      <div class="navbar-droite">
+        <div class="element"> Menu </div>
+        <div class="element"> A propos </div>
+        <div class="element"> Contact </div>
+        <div class="avatar"> <%= image_tag "card_picture.png", alt: "Card picture", class: "avatar" %> </div>
+      </div>
+      <div class="logo"><%= image_tag "logo.png", alt: "Logo", class: "logo" %></div>  
+    </div>
+    
+    <div class="btn-blue"> J'ai de la chance </div>
+
+    
+
+    <%= yield %>
+  </body>
+</html>

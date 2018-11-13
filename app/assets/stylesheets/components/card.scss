@@ -1,0 +1,36 @@
+.card
+{
+	width: 514px;
+	height: 336px;
+	position: relative;
+	background-size: contain;
+	background: linear-gradient(165deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+	background: url(asset-path("image.png"));
+}
+
+.card-picture
+{
+    position: absolute;
+    top : 5px;
+    right: 5px;
+   	width: 3,5cm;
+	height: 4,5cm;
+}
+.card-category
+{
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 9%, rgba(255,255,255,1) 52%);
+    border-radius: 10px;
+}
+.card-description
+{
+	position: absolute;
+	top: 150px;
+	left: 10px;
+	background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 9%, rgba(255,255,255,1) 52%);
+    border-radius: 10px;
+}

@@ -1,0 +1,19 @@
+.navbar
+{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(163,163,226,0.10966393393294815) 57%, rgba(0,212,255,1) 100%);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	height: 110px;
+}
+.navbar-droite
+{
+	display:flex;
+	justify-content: space-between;
+}
+.element
+{
+	
+	margin: 1em;
+}
